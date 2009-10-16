@@ -2,10 +2,6 @@
 app as it will make your life easier, especially if it's a new app. Otherwise, use this as a guide
 for how to get your layout looking good with this helper */
 
-div.span-1, div.span-23 {float:left;margin-right:10px;}
-.last, div.last {margin-right:0;}
-.span-1 {width:30px;}
-.span-23 {width:910px;}
 .error, .notice, .success {padding:.8em;margin-bottom:1em;border:2px solid #ddd;}
 .error {background:#FBE3E4;color:#8a1f11;border-color:#FBC2C4;}
 .notice {background:#FFF6BF;color:#514721;border-color:#FFD324;}
@@ -17,5 +13,10 @@ div.span-1, div.span-23 {float:left;margin-right:10px;}
 /* This is all you really need if you are already using blueprint, or something 
 similar, otherwise custimize the layout using the above as a template  */
 
-.flash-text{ font-size: 1.6em;}
+.flash-text{ font-size: 1.6em;margin-left:32px;}
+.flash-icon{background-repeat:no-repeat;background-position: 4px 8px;}
+.success {background-image:url('/images/icons/32/success.png');}
+.notice {background-image:url('/images/icons/32/notice.png');}
+.error {background-image:url('/images/icons/32/error.png');}
+
 
