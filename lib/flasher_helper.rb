@@ -1,17 +1,18 @@
 module Flasher
   module Helper
     def flasher_helper
-      return nil if flash.keys.empty?
-      output = []
-      flash.each do |key, value|
-        body = %(
-          <div class="flash-icon #{key}">
-            <div class="flash-text">#{value}</div>
-          </div>
-        )
-        output << body
+      if flash.any?
+        output = flash.map{|k, v| render_message(k, v)}.join("\n")
+        return content_tag(:div, output, {:id => 'flash-messages'})
       end
-      return content_tag :div, output.join("\n"), {:id => 'flash-messages'}
+    end
+    
+    def render_message(key, value)
+      %(
+        <div class="flash-icon #{key}">
+          <div class="flash-text">#{value}</div>
+        </div>
+      )
     end
   end
 end
