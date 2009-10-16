@@ -1,7 +1,7 @@
 h1. Flasher
 
 Flasher is a quick way to get pretty flash message for :error, :notice, and :success keys out of the box for Rails apps.  Setup is fairly simple, but may take some tweeking
-if you are not using blueprint.css or something similar.  If you aren't I recommend checking it out http://wiki.github.com/joshuaclayton/blueprint-css
+if you are not using blueprint.css or something similar.  If you aren't I recommend "checking it out":http://wiki.github.com/joshuaclayton/blueprint-css
 
 h2. Installation
 
