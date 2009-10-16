@@ -1,0 +1,18 @@
+h1. Flasher
+
+Flasher is a quick way to get pretty flash message for :error, :notice, and :success keys out of the box for Rails apps.  Setup is fairly simple, but may take some tweeking
+if you are not using blueprint.css or something similar.  If you aren't I recommend checking it out http://wiki.github.com/joshuaclayton/blueprint-css
+
+h2. Installation
+
+This will work out of the box if you are using Blueprint css or something similar, otherwise it will take some tweaking to show up perfect.
+
+Copy the flasher/files/icons directory into public/images/icons
+Copy the css that you need out of the flasher/files/flasher.css file into one of your stylesheets
+Insert: <%= flasher_helper %> somewhere in your layout
+
+Get pretty stuff like this:
+
+!http://i37.tinypic.com/10erpuf.jpg(flasher messages)!
+
+Copyright (c) 2009 Shane Wolf, released under the MIT license
