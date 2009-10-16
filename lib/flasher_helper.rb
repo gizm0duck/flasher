@@ -4,7 +4,6 @@ module Flasher
       return nil if flash.keys.empty?
       output = []
       flash.each do |key, value|
-        image = image_tag "icons/#{key}.png"
         body = %(
           <div class="flash-icon #{key}">
             <div class="flash-text">#{value}</div>
