@@ -15,8 +15,8 @@ similar, otherwise custimize the layout using the above as a template  */
 
 .flash-text{ font-size: 1.6em;margin-left:32px;}
 .flash-icon{background-repeat:no-repeat;background-position: 4px 8px;}
-.success {background-image:url('/images/icons/32/success.png');}
-.notice {background-image:url('/images/icons/32/notice.png');}
-.error {background-image:url('/images/icons/32/error.png');}
+.success {background-image:url('/images/icons/success.png');}
+.notice {background-image:url('/images/icons/notice.png');}
+.error {background-image:url('/images/icons/error.png');}
 
 
