@@ -15,6 +15,7 @@ Get pretty stuff like this:
 
 !http://i37.tinypic.com/10erpuf.jpg(flasher messages)!
 
-Icons are from the awesome fat cow free icon set: 
+
+Icons are from the awesome fat cow free "icon set":http://www.fatcow.com/free-icons/
 
 Copyright (c) 2009 Shane Wolf, released under the MIT license
