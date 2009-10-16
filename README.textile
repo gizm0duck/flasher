@@ -4,7 +4,7 @@ Flasher is a quick way to get pretty flash message for :error, :notice, and :suc
 
 h2. Installation
 
-This will work out of the box with all the pretty colors if you are using Blueprint css or something similar, otherwise it will take some tweaking to show up perfect.
+This will work out of the box with all the pretty colors if you are using "Blueprint CSS":http://wiki.github.com/joshuaclayton/blueprint-css or another parallel project, otherwise it will take some tweaking to show up perfect.
 
 Copy the flasher/files/icons directory into public/images/icons
 Copy the css that you need out of the flasher/files/flasher.css file into one of your stylesheets
